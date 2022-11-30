@@ -7,23 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		346C32702936813C0070884D /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346C326F2936813C0070884D /* PhotoViewController.swift */; };
+		3495B4A029375D51004B50B3 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3495B49F29375D51004B50B3 /* GalleryViewModel.swift */; };
+		3495B4A22937600E004B50B3 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3495B4A12937600E004B50B3 /* String+Extension.swift */; };
+		3495B4A729377317004B50B3 /* MainViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3495B4A629377317004B50B3 /* MainViewController+Extension.swift */; };
 		34AF86E72935380000BA6778 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF86E62935380000BA6778 /* AppDelegate.swift */; };
 		34AF86E92935380000BA6778 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF86E82935380000BA6778 /* SceneDelegate.swift */; };
-		34AF86EB2935380000BA6778 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF86EA2935380000BA6778 /* ViewController.swift */; };
-		34AF86EE2935380000BA6778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AF86EC2935380000BA6778 /* Main.storyboard */; };
+		34AF86EB2935380000BA6778 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF86EA2935380000BA6778 /* MainViewController.swift */; };
 		34AF86F02935380600BA6778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34AF86EF2935380600BA6778 /* Assets.xcassets */; };
 		34AF86F32935380600BA6778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34AF86F12935380600BA6778 /* LaunchScreen.storyboard */; };
+		34AF87022935396900BA6778 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF87012935396900BA6778 /* NetworkService.swift */; };
+		34AF870429353BAC00BA6778 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF870329353BAC00BA6778 /* User.swift */; };
+		34AF870629353FB400BA6778 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF870529353FB400BA6778 /* Album.swift */; };
+		34AF8708293540C700BA6778 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF8707293540C700BA6778 /* Photo.swift */; };
+		34AF870A2935459B00BA6778 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF87092935459B00BA6778 /* MainViewModel.swift */; };
+		34AF87112935498900BA6778 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF87102935498900BA6778 /* BaseRouter.swift */; };
+		34AF8714293549CA00BA6778 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF8713293549CA00BA6778 /* HttpMethod.swift */; };
+		34AF871629354A2300BA6778 /* HttpHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF871529354A2300BA6778 /* HttpHeader.swift */; };
+		34AF871829354A7500BA6778 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF871729354A7500BA6778 /* MainController.swift */; };
+		34AF871C29364BAC00BA6778 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF871B29364BAC00BA6778 /* AlbumCollectionViewCell.swift */; };
+		34AF871F29366FE400BA6778 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF871E29366FE400BA6778 /* GalleryViewController.swift */; };
+		34AF87232936724B00BA6778 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF87222936724B00BA6778 /* PhotoCollectionViewCell.swift */; };
+		D2A4437002363C556551DC25 /* Pods_BeelineProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAFBB707CFDA428B09618049 /* Pods_BeelineProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		346C326F2936813C0070884D /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		3495B49F29375D51004B50B3 /* GalleryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
+		3495B4A12937600E004B50B3 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		3495B4A629377317004B50B3 /* MainViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+Extension.swift"; sourceTree = "<group>"; };
 		34AF86E32935380000BA6778 /* BeelineProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeelineProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34AF86E62935380000BA6778 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34AF86E82935380000BA6778 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		34AF86EA2935380000BA6778 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		34AF86ED2935380000BA6778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34AF86EA2935380000BA6778 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		34AF86EF2935380600BA6778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34AF86F22935380600BA6778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34AF86F42935380600BA6778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34AF87012935396900BA6778 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		34AF870329353BAC00BA6778 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		34AF870529353FB400BA6778 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		34AF8707293540C700BA6778 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		34AF87092935459B00BA6778 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		34AF87102935498900BA6778 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		34AF8713293549CA00BA6778 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		34AF871529354A2300BA6778 /* HttpHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHeader.swift; sourceTree = "<group>"; };
+		34AF871729354A7500BA6778 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		34AF871B29364BAC00BA6778 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		34AF871E29366FE400BA6778 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		34AF87222936724B00BA6778 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		5CA7B9A844011D9B8CCDF863 /* Pods-BeelineProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeelineProject.release.xcconfig"; path = "Target Support Files/Pods-BeelineProject/Pods-BeelineProject.release.xcconfig"; sourceTree = "<group>"; };
+		C93C956FBC3A7621322FB9F2 /* Pods-BeelineProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeelineProject.debug.xcconfig"; path = "Target Support Files/Pods-BeelineProject/Pods-BeelineProject.debug.xcconfig"; sourceTree = "<group>"; };
+		CAFBB707CFDA428B09618049 /* Pods_BeelineProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeelineProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2A4437002363C556551DC25 /* Pods_BeelineProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CFC185BCB551F96F4611053 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBB707CFDA428B09618049 /* Pods_BeelineProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2019F8495B85AA2DBF91F425 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C93C956FBC3A7621322FB9F2 /* Pods-BeelineProject.debug.xcconfig */,
+				5CA7B9A844011D9B8CCDF863 /* Pods-BeelineProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3495B4A4293772D2004B50B3 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				34AF87222936724B00BA6778 /* PhotoCollectionViewCell.swift */,
+				346C326F2936813C0070884D /* PhotoViewController.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		3495B4A5293772EF004B50B3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3495B49F29375D51004B50B3 /* GalleryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3495B4A9293773FB004B50B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3495B4A629377317004B50B3 /* MainViewController+Extension.swift */,
+				3495B4A12937600E004B50B3 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		34AF86DA2935380000BA6778 = {
 			isa = PBXGroup;
 			children = (
 				34AF86E52935380000BA6778 /* BeelineProject */,
 				34AF86E42935380000BA6778 /* Products */,
+				2019F8495B85AA2DBF91F425 /* Pods */,
+				1CFC185BCB551F96F4611053 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +136,116 @@
 		34AF86E52935380000BA6778 /* BeelineProject */ = {
 			isa = PBXGroup;
 			children = (
-				34AF86E62935380000BA6778 /* AppDelegate.swift */,
-				34AF86E82935380000BA6778 /* SceneDelegate.swift */,
-				34AF86EA2935380000BA6778 /* ViewController.swift */,
-				34AF86EC2935380000BA6778 /* Main.storyboard */,
-				34AF86EF2935380600BA6778 /* Assets.xcassets */,
-				34AF86F12935380600BA6778 /* LaunchScreen.storyboard */,
+				34AF86FB293538EE00BA6778 /* Models */,
+				34AF87002935395900BA6778 /* Service */,
+				34AF86FA293538E100BA6778 /* Main */,
+				34AF871D29366FC500BA6778 /* Gallery */,
+				3495B4A9293773FB004B50B3 /* Extensions */,
+				34AF86FF2935391600BA6778 /* Resources */,
 				34AF86F42935380600BA6778 /* Info.plist */,
 			);
 			path = BeelineProject;
+			sourceTree = "<group>";
+		};
+		34AF86FA293538E100BA6778 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				34AF86FE2935390700BA6778 /* Views */,
+				34AF86FD293538FC00BA6778 /* ViewModel */,
+				34AF86FC293538F400BA6778 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		34AF86FB293538EE00BA6778 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				34AF870329353BAC00BA6778 /* User.swift */,
+				34AF870529353FB400BA6778 /* Album.swift */,
+				34AF8707293540C700BA6778 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		34AF86FC293538F400BA6778 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34AF86EA2935380000BA6778 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		34AF86FD293538FC00BA6778 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				34AF87092935459B00BA6778 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		34AF86FE2935390700BA6778 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34AF871B29364BAC00BA6778 /* AlbumCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		34AF86FF2935391600BA6778 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				34AF86F12935380600BA6778 /* LaunchScreen.storyboard */,
+				34AF86EF2935380600BA6778 /* Assets.xcassets */,
+				34AF86E82935380000BA6778 /* SceneDelegate.swift */,
+				34AF86E62935380000BA6778 /* AppDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		34AF87002935395900BA6778 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				34AF8712293549B900BA6778 /* NetworkStuff */,
+				34AF870F2935496F00BA6778 /* BaseRouter */,
+				34AF87012935396900BA6778 /* NetworkService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		34AF870F2935496F00BA6778 /* BaseRouter */ = {
+			isa = PBXGroup;
+			children = (
+				34AF87102935498900BA6778 /* BaseRouter.swift */,
+				34AF871729354A7500BA6778 /* MainController.swift */,
+			);
+			path = BaseRouter;
+			sourceTree = "<group>";
+		};
+		34AF8712293549B900BA6778 /* NetworkStuff */ = {
+			isa = PBXGroup;
+			children = (
+				34AF8713293549CA00BA6778 /* HttpMethod.swift */,
+				34AF871529354A2300BA6778 /* HttpHeader.swift */,
+			);
+			path = NetworkStuff;
+			sourceTree = "<group>";
+		};
+		34AF871D29366FC500BA6778 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				3495B4A5293772EF004B50B3 /* ViewModel */,
+				34AF87202936720F00BA6778 /* Controller */,
+				3495B4A4293772D2004B50B3 /* Photo */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		34AF87202936720F00BA6778 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				34AF871E29366FE400BA6778 /* GalleryViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34AF86F72935380600BA6778 /* Build configuration list for PBXNativeTarget "BeelineProject" */;
 			buildPhases = (
+				908BDE73C5D9C8D20606888D /* [CP] Check Pods Manifest.lock */,
 				34AF86DF2935380000BA6778 /* Sources */,
 				34AF86E02935380000BA6778 /* Frameworks */,
 				34AF86E12935380000BA6778 /* Resources */,
+				C43152C4A828B43144BD562A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +310,83 @@
 			files = (
 				34AF86F32935380600BA6778 /* LaunchScreen.storyboard in Resources */,
 				34AF86F02935380600BA6778 /* Assets.xcassets in Resources */,
-				34AF86EE2935380000BA6778 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		908BDE73C5D9C8D20606888D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeelineProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C43152C4A828B43144BD562A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeelineProject/Pods-BeelineProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BeelineProject/Pods-BeelineProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BeelineProject/Pods-BeelineProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		34AF86DF2935380000BA6778 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34AF86EB2935380000BA6778 /* ViewController.swift in Sources */,
+				34AF8708293540C700BA6778 /* Photo.swift in Sources */,
+				34AF86EB2935380000BA6778 /* MainViewController.swift in Sources */,
 				34AF86E72935380000BA6778 /* AppDelegate.swift in Sources */,
+				34AF87022935396900BA6778 /* NetworkService.swift in Sources */,
+				34AF8714293549CA00BA6778 /* HttpMethod.swift in Sources */,
+				34AF870429353BAC00BA6778 /* User.swift in Sources */,
+				34AF871C29364BAC00BA6778 /* AlbumCollectionViewCell.swift in Sources */,
+				34AF87112935498900BA6778 /* BaseRouter.swift in Sources */,
+				3495B4A029375D51004B50B3 /* GalleryViewModel.swift in Sources */,
 				34AF86E92935380000BA6778 /* SceneDelegate.swift in Sources */,
+				3495B4A729377317004B50B3 /* MainViewController+Extension.swift in Sources */,
+				3495B4A22937600E004B50B3 /* String+Extension.swift in Sources */,
+				34AF87232936724B00BA6778 /* PhotoCollectionViewCell.swift in Sources */,
+				34AF871629354A2300BA6778 /* HttpHeader.swift in Sources */,
+				34AF870629353FB400BA6778 /* Album.swift in Sources */,
+				34AF871F29366FE400BA6778 /* GalleryViewController.swift in Sources */,
+				346C32702936813C0070884D /* PhotoViewController.swift in Sources */,
+				34AF871829354A7500BA6778 /* MainController.swift in Sources */,
+				34AF870A2935459B00BA6778 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		34AF86EC2935380000BA6778 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				34AF86ED2935380000BA6778 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		34AF86F12935380600BA6778 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +514,7 @@
 		};
 		34AF86F82935380600BA6778 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93C956FBC3A7621322FB9F2 /* Pods-BeelineProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +525,9 @@
 				INFOPLIST_FILE = BeelineProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +543,7 @@
 		};
 		34AF86F92935380600BA6778 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA7B9A844011D9B8CCDF863 /* Pods-BeelineProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +554,9 @@
 				INFOPLIST_FILE = BeelineProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
