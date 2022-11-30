@@ -24,6 +24,14 @@ class MainViewController: UIViewController {
     }
     
     // MARK: - Views
+    private let selectLabel: UILabel = {
+        let label = UILabel()
+        label.text = "Select user"
+        label.textAlignment = .center
+        label.font = UIFont.systemFont(ofSize: 20, weight: .semibold)
+        label.textColor = .red
+        return label
+    }()
     private lazy var usersPickerView: UIPickerView = {
         let pickerView = UIPickerView()
         pickerView.delegate = self
@@ -31,7 +39,6 @@ class MainViewController: UIViewController {
         pickerView.layer.cornerRadius = 16
         return pickerView 
     }()
-    
      lazy var albumsCollectionView: UICollectionView = {
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: setLayout())
         collectionView.delegate = self
@@ -55,10 +62,15 @@ class MainViewController: UIViewController {
         view.backgroundColor = .white
         view.addSubview(usersPickerView)
         view.addSubview(albumsCollectionView)
+        view.addSubview(selectLabel)
         setConstraints()
     }
     
     private func setConstraints() {
+        selectLabel.snp.makeConstraints {
+            $0.top.equalTo(view.safeAreaLayoutGuide).offset(5)
+            $0.centerX.equalToSuperview()
+        }
         usersPickerView.snp.makeConstraints {
             $0.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(25)
             $0.leading.trailing.equalToSuperview().inset(20)
