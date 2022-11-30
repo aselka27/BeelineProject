@@ -68,7 +68,7 @@ class MainViewController: UIViewController {
     
     private func setConstraints() {
         selectLabel.snp.makeConstraints {
-            $0.top.equalTo(view.safeAreaLayoutGuide).offset(5)
+            $0.top.equalToSuperview().offset(55)
             $0.centerX.equalToSuperview()
         }
         usersPickerView.snp.makeConstraints {
